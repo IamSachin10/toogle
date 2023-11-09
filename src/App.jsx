@@ -15,7 +15,7 @@ function App() {
       <header className="flex flex-col justify-center items-center  gap-4 mb-8 text-grayishBlue">
         <h1 className="text-grayish font-bold text-2xl">our pricing</h1>
         <div className="flex gap-4 font-bold">
-          <p>monthly</p>
+          <p>annually</p>
           <label className="relative inline-flex items-center cursor-pointer">
             <input
               type="checkbox"
@@ -26,7 +26,7 @@ function App() {
             <div className="w-11 h-6 bg-linearGradient peer-focus:outline-none  rounded-full peer dark:bg-linearGradient peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:linearGradient peer-checked:bg-linearGradient"></div>
             <span className="ml-3 text-sm font-medium "></span>
           </label>
-          <p>annually</p>
+          <p>monthly</p>
         </div>
       </header>
       {/* cards */}
